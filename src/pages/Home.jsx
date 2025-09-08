@@ -34,7 +34,7 @@ function Home() {
             />
           </div>
 
-          <div className="logo-txt glow" style={{ fontFamily: "Netron" , fontSize: 38}}>
+          <div className="logo-txt glow" style={{ fontFamily: "Netron" , fontSize: 18}}>
             A International Level Technical Symposium
           </div>
           <div className="glitch-wrapper">
