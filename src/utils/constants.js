@@ -99,20 +99,7 @@ export const CONTACT_INFO = [
        { name: "Professor/CSE" },
     ],
   },
-  // {
-  //   title: "Student Coordinators",
-  //   role: "student",
-  //   data: [
-  //     { name: "M. Mohammed Kaleel, IV CSE-A" },
-  //     { name: "M. Sithik Asath, IV CSE-B" },
-  //     { name: "C. Tamilselvan, III CSE-A" },
-  //     { name: "J. Vigneshwaran, III CSE-C" },
-  //     { name: "D. Mahalakshmi, IV CSE-A" },
-  //     { name: "S.R Reshma, IV CSE-B" },
-  //     { name: "E. Harish, III CSE-C" },
-  //     { name: "M. Ramakrishnan, III CSE-B" },
-  //   ],
-  // },
+
   {
     title: "Chair Person",
     role: "staff",
@@ -135,15 +122,44 @@ export const CONTACT_INFO = [
        { name: "Associate Professor/CSE" },
     ],
   },
-];
 
-export const CONTACT_STUDENT = [
   {
     title: "Student Coordinators",
     role: "student",
     data: [
-      { name: "Dr. M. Chinnadurai,phD " },
-      { name: "Principal, Professor/CSE" },
+    ],
+  },
+  {
+    title: "President",
+    role: "student",
+    data: [
+      { name: "M. Mohammed Kaleel, IV CSE-A" },
+      { name: "M. Sithik Asath, IV CSE-B" },
+    ],
+  },
+  {
+    title: "Vice President",
+    role: "student",
+    data: [
+      { name: "C. Tamilselvan, III CSE-A" },
+      { name: "J. Vigneshwaran, III CSE-C" },
+    ],
+  },
+  {
+    title: "Secretary",
+    role: "student",
+    data: [
+      { name: "D. Mahalakshmi, IV CSE-A" },
+      { name: "S.R Reshma, IV CSE-B" },
+    ],
+  },
+  {
+    title: "Joint Secretary",
+    role: "student",
+    data: [
+      { name: "E. Harish, III CSE-C" },
+      { name: "M. Ramakrishnan, III CSE-B" },
     ],
   },
 ];
+
