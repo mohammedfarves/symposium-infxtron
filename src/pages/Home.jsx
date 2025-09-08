@@ -5,12 +5,13 @@ import Logo from "../assets/imgs/logo.png";
 import "../assets/fonts/font.css";
 import "../assets/fonts/nusar.css";
 
-// import Button from '../components/Button'
+import Button from '../components/Button'
 import CountDown from "../components/CountDown";
 
 import Events from "../components/Events";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
+import ContactStudent from "../components/ContactStudent";
 
 import { META_EVENTS, SPONSERS } from "../utils/constants";
 
@@ -29,7 +30,7 @@ function Home() {
             <img
               width={620}
               src={Logo}
-              alt="Petrona - A National Level Technical Symposium"
+              alt="Infxtron - A International Level Technical Symposium"
             />
           </div>
 
@@ -45,7 +46,7 @@ function Home() {
              COMING SOON ....
             </div>
           </div>
-          {/* <Button className='reg-btn' /> */}
+          { <Button className='reg-btn' /> }
           <p style={{ fontSize: 34 }}>10th Oct'25</p>
         </div>
       </div>
@@ -79,7 +80,7 @@ function Home() {
       <Services />
 
       {/* Sponsers  */}
-      <h1 className="count-h">SPONSORS</h1>
+      <h1 className="count-h">MANAGED BY</h1>
       <div className="grid-sponsers">
         {SPONSERS.map((sponser, index) => (
           <div className="card" key={index}>

@@ -45,12 +45,12 @@ function FilmFrency() {
     return (
         <>
             <div className='events'>
-                <div className="count-h">FILM FRENCY</div>
+                <div className="count-h">Just Imagine</div>
                 <div className="count-p">Unravel Challenging</div>
 
                 <div className="d-flex">
                     <div className="img">
-                        <img src="/imgs/nontech/event2.webp" width={450} alt="" />
+                        <img src="/imgs/nontech/4.png" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: 25, marginBottom: 12,display: 'flex', justifyContent: 'center' }}>
                             {/* <Button /> */}
 

@@ -1,11 +1,11 @@
 const EVENTS_DATA = [
   {
-    name: "MINDSCAPES UNFOLD",
+    name: "Paper Presentation",
     title: "Paper Presentation",
     imgURL: "/imgs/tech/6.png",
-    studName: "Shyam Kumar A",
-    phone: "+91 9840440839",
-    status: "Registartion Cloded",
+    studName: "Asath",
+    phone: "+91 1111111",
+    status: "Registartion Open",
     additonals: (
       <a
         target="_blank"

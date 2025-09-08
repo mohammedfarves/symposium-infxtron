@@ -19,12 +19,12 @@ function ApexConquest() {
     return (
         <>
             <div className='events'>
-                <div className="count-h">Apex Conquest</div>
-                <div className="count-p">BGMI/ FREE FIRE</div>
+                <div className="count-h">Whisper Chain</div>
+                <div className="count-p">non tech</div>
 
                 <div className="d-flex">
                     <div className="img">
-                        <img src="/imgs/nontech/event3.webp" width={450} alt="" />
+                        <img src="/imgs/nontech/8.png" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: -5, display: 'flex', justifyContent: 'center' }}>
                             {/* <Button /> */}
 

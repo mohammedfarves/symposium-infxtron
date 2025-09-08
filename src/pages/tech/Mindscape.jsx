@@ -28,12 +28,12 @@ function Mindscape() {
   return (
     <>
       <div className="events">
-        <div className="count-h">MINDSCAPES UNFOLD</div>
+        <div className="count-h">Paper Presentation</div>
         <div className="count-p">Paper Presentation</div>
 
         <div className="d-flex">
           <div className="img">
-            <img src="/imgs/tech/7.png" width={450} alt="" />
+            <img src="/imgs/tech/6.png" width={450} alt="" />
             <div
               className="btn-ly"
               style={{
@@ -46,10 +46,10 @@ function Mindscape() {
               
             </div>
             <h5 className='event-phone' style={{ textAlign: "center", marginTop: 28, fontSize: 21 }}>
-              +91 9840440839
+              +91 9876543210
             </h5>
             <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
-              Shyam Kumar A
+              Asath
             </h5>
 
             <a target="_blank" href="https://drive.google.com/drive/folders/1B_bE0cwAyEb6qlJ1MPMa0NpQ14tzGc7b">
@@ -75,7 +75,7 @@ function Mindscape() {
               </h6>
             </a>
 
-            <h6 style={{ textAlign: "center", marginTop: 12,color: '#ffffff59'}}>(Registration Closed)</h6>
+            <h6 style={{ textAlign: "center", marginTop: 12,color: '#ffffff59'}}>(Registration Open)</h6>
 
 
           </div>

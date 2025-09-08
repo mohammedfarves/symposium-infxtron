@@ -22,12 +22,12 @@ function GreyScale() {
     return (
         <>
             <div className='events'>
-                <div className="count-h">Tech Taboos</div>
+                <div className="count-h">Code Storm</div>
                 <div className="count-p">UI/UX Design</div>
 
                 <div className="d-flex">
                     <div className="img">
-                        <img src="/imgs/tech/6.png" width={450} alt="" />
+                        <img src="/imgs/tech/9.png" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: 56, display: 'flex', justifyContent: 'center' }}>
                             {/* <Button /> */}
 
@@ -60,12 +60,12 @@ function GreyScale() {
 
                         <ul className='students'>
                             <h2>Coordinators</h2>
-                            <p>Madheshwaran M</p>
+                            {/* <p>Madheshwaran M</p>
                             <p>Sethu Raja P</p>
                             <p>Sakthivinash B</p>
                             <p>Varsha S</p>
                             <p>Ramya S</p>
-                            <p>Kamini V</p>
+                            <p>Kamini V</p> */}
                         </ul>
 
 

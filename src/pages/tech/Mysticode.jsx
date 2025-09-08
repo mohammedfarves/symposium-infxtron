@@ -33,12 +33,12 @@ function Mysticode() {
     return (
         <>
             <div className='events'>
-                <div className="count-h">MYSTICODE</div>
+                <div className="count-h">TECHIZARDS</div>
                 <div className="count-p">Debugging</div>
 
                 <div className="d-flex">
                     <div className="img">
-                        <img src="/imgs/tech/9.png" width={450} alt="" />
+                        <img src="/imgs/tech/7.png" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: -5, display: 'flex', justifyContent: 'center' }}>
                             {/* <Button /> */}
 

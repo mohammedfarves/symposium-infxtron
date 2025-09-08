@@ -32,12 +32,12 @@ function SnapSeek() {
     return (
         <>
             <div className='events'>
-                <div className="count-h">SNAP SEEK & BUZZ</div>
-                <div className="count-p">Connections</div>
+                <div className="count-h">Minute to Win It</div>
+                <div className="count-p">Non tech</div>
 
                 <div className="d-flex">
                     <div className="img">
-                        <img src="/imgs/nontech/event1.webp" width={450} alt="" />
+                        <img src="/imgs/nontech/2.png" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: -5, display: 'flex', justifyContent: 'center' }}>
                             {/* <Button /> */}
 

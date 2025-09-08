@@ -13,10 +13,10 @@ body {
 }
 
 .btn {
-  padding: 8px 12px;
+  padding: 9px 12px;
   border-radius: 6px;
   font-family: "nusar";
-  font-size: 28px;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -32,7 +32,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  background: rgba(255, 255, 255, 0.5); /* Transparent background */
+  background: rgba(165, 0, 230, 0.358); /* Transparent background */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: white;
@@ -573,6 +573,7 @@ body {
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
+
 
 @media screen and (min-width: 200px) and (max-width: 650px) {
   .hero .logo-img img {
