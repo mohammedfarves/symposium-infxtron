@@ -11,7 +11,7 @@ import CountDown from "../components/CountDown";
 import Events from "../components/Events";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
-import ContactStudent from "../components/ContactStudent";
+// import ContactStudent from "../components/ContactStudent";
 
 import { META_EVENTS, SPONSERS } from "../utils/constants";
 
