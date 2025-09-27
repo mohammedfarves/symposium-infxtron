@@ -191,27 +191,6 @@ const Events = () => {
       }
     },
     {
-      id: 7,
-      title: "Just Imagine",
-      subtitle: "Gesture Speaks Louder",
-      description: "Spark creativity through non-verbal communication.",
-      icon: <GiRunningShoe className="text-4xl text-red-400 mb-4" />,
-      details: {
-        objective: "Spark creativity and strengthen non-verbal communication by conveying ideas through gestures within limited time.",
-        structure: [
-          { round: "Round 1", duration: "2 mins", description: "Guess words/phrases from partner's gestures" },
-          { round: "Round 2", duration: "1.5 mins", description: "Same format with reduced time" }
-        ],
-        rules: [
-          "Teams of two participants",
-          "Gestures only - no speaking or lip-sync",
-          "Cheating leads to disqualification",
-          "Lesser time for correct answer qualifies"
-        ],
-        participants: "Teams of 2"
-      }
-    },
-    {
       id: 8,
       title: "Focus Fiesta",
       subtitle: "Balance Aim Triumph",
@@ -305,7 +284,6 @@ const Events = () => {
 
             {/* Requirements & Details */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            
               <div className="bg-gradient-to-br from-red-950/30 to-black/40 p-4 rounded-xl border border-red-500/30 backdrop-blur-sm">
                 <h4 className="font-semibold text-red-400 mb-2 flex items-center">
                   <FaUser className="mr-2 text-red-400" />
@@ -407,37 +385,26 @@ const Events = () => {
 
         {/* Additional Info Section */}
         <div className="w-full max-w-4xl p-6 rounded-2xl backdrop-blur-xl bg-white/10 border border-white/20 ring-1 ring-red-400/40 shadow-xl">
-          <div className="text-center">
-            <h2 className="text-2xl font-bold text-red-400 oi-regular mb-4">Event Highlights</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-200">
-              <div className="flex items-center justify-center">
-                <FaTrophy className="text-red-400 mr-2" />
-                <span>Exciting Prizes</span>
-              </div>
-              <div className="flex items-center justify-center">
-                <FaUserFriends className="text-red-400 mr-2" />
-                <span>Expert Judging Panel</span>
-              </div>
-              <div className="flex items-center justify-center">
-                <FaUsers className="text-red-400 mr-2" />
-                <span>Networking Opportunities</span>
-              </div>
-            </div>
-            <p className="text-red-300 mt-6 text-sm">
-              Don't miss this opportunity to showcase your skills and learn from the best!
-            </p>
-          </div>
+          <h2 className="text-xl oi-regular font-bold text-red-300 mb-4">Important Information</h2>
+          <ul className="text-gray-200 space-y-2 text-sm">
+            <li className="flex items-start">
+              <FaFileAlt className="text-red-400 mr-2 mt-1" />
+              <span>All participants must register before the event day.</span>
+            </li>
+            <li className="flex items-start">
+              <FaStopwatch className="text-red-400 mr-2 mt-1" />
+              <span>Arrive at least 30 minutes before your event starts.</span>
+            </li>
+            <li className="flex items-start">
+              <FaTrophy className="text-red-400 mr-2 mt-1" />
+              <span>Certificates & prizes will be awarded to winners.</span>
+            </li>
+          </ul>
         </div>
-
       </div>
 
-      {/* Event Detail Modal */}
-      {isModalOpen && (
-        <EventModal 
-          event={selectedEvent} 
-          onClose={closeModal} 
-        />
-      )}
+      {/* Event Modal */}
+      {isModalOpen && <EventModal event={selectedEvent} onClose={closeModal} />}
     </section>
   );
 };
