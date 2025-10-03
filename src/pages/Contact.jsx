@@ -25,7 +25,7 @@ const Contact = () => {
     },
     {
       label: "Address",
-      value: "OLD NAQORE ROAD, NAGAPATTINAM",
+      value: "OLD NAGORE ROAD, NAGAPATTINAM",
       href: "https://maps.google.com/?q=OLD+NAQORE+ROAD,NAGAPATTINAM"
     }
   ];
