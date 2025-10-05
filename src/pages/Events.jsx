@@ -389,7 +389,7 @@ const Events = () => {
           <ul className="text-gray-200 space-y-2 text-sm">
             <li className="flex items-start">
               <FaFileAlt className="text-red-400 mr-2 mt-1" />
-              <span>All participants must register before the event day.</span>
+              <span>On-spot registration is available for all participants.</span>
             </li>
             <li className="flex items-start">
               <FaStopwatch className="text-red-400 mr-2 mt-1" />
