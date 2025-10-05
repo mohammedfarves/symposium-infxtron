@@ -397,7 +397,7 @@ const Events = () => {
             </li>
             <li className="flex items-start">
               <FaTrophy className="text-red-400 mr-2 mt-1" />
-              <span>Certificates & prizes will be awarded to winners.</span>
+              <span>Certificates will be provided to all participants, and prizes along with certificates will be awarded to the winners.</span>
             </li>
           </ul>
         </div>
